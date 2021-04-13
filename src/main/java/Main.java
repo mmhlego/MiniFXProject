@@ -20,6 +20,5 @@ public class Main extends Application {
 		primaryStage.setScene(s);
 		primaryStage.initStyle(StageStyle.TRANSPARENT);
 		primaryStage.show();
-
 	}
 }
