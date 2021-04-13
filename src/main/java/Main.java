@@ -6,8 +6,8 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class Main extends Application{
-	public static void main(String[] args){
+public class Main extends Application {
+	public static void main(String[] args) {
 		launch(args);
 	}
 
@@ -20,6 +20,6 @@ public class Main extends Application{
 		primaryStage.setScene(s);
 		primaryStage.initStyle(StageStyle.TRANSPARENT);
 		primaryStage.show();
-		
+
 	}
 }

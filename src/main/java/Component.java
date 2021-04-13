@@ -1,25 +1,23 @@
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
 public class Component implements Initializable {
 
-    @FXML
-    private Label firstName;
+	@FXML
+	private Label firstName;
 
-    @FXML
-    private Label lastName;
+	@FXML
+	private Label lastName;
 
-    @FXML
-    private Label id;
+	@FXML
+	private Label id;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		// TODO Auto-generated method stub
-		
+
 	}
 
 	public Label getFirstName() {

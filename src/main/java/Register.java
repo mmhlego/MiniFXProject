@@ -1,29 +1,23 @@
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-public class Register implements Initializable{
-
-    @FXML
-    private TextField firstNameTXF;
-
-    @FXML
-    private TextField lastNameTXF;
-
-    @FXML
-    private TextField IDTXF;
-
-    @FXML
-    private Button registerBTN;
+public class Register implements Initializable {
+	@FXML
+	private TextField firstNameTXF;
+	@FXML
+	private TextField lastNameTXF;
+	@FXML
+	private TextField IDTXF;
+	@FXML
+	private Button registerBTN;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		
-		
+
 	}
 
 	public TextField getFirstNameTXF() {
@@ -57,7 +51,4 @@ public class Register implements Initializable{
 	public void setRegisterBTN(Button registerBTN) {
 		this.registerBTN = registerBTN;
 	}
-    
-    
-
 }
