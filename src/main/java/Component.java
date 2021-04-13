@@ -3,8 +3,12 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
 
 public class Component implements Initializable {
+
+	@FXML
+	private AnchorPane back;
 
 	@FXML
 	private Label firstName;
@@ -18,6 +22,10 @@ public class Component implements Initializable {
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 
+	}
+
+	public AnchorPane getBack() {
+		return back;
 	}
 
 	public Label getFirstName() {

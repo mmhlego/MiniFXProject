@@ -27,9 +27,14 @@ public class Register implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		registerBTN.setOnAction(e -> {
 			if (checkData()) {
+				addUserToDB();
 				gotoNextPage();
 			}
 		});
+	}
+
+	private void addUserToDB() {
+		DBConnector.AddUser(new User(firstNameTXF.getText(), lastNameTXF.getText(), IDTXF.getText()));
 	}
 
 	private void showAlert(String message) {
