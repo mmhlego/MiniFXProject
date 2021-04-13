@@ -9,6 +9,11 @@ import javafx.stage.StageStyle;
 public class Main extends Application {
 	public static void main(String[] args) {
 		launch(args);
+
+		// User u = new User("Mark", "Antony", "142");
+		DBConnector.Connect();
+		// DBConnector.AddUser(u);
+		System.out.println(DBConnector.ConvertuserToArrayList(DBConnector.GetAllUsers()));
 	}
 
 	@Override
