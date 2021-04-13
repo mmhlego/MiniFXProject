@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #f00036; -fx-background-radius: 200;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Component">
+   <children>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="30.0" prefHeight="40.0" prefWidth="69.0" style="-fx-text-fill: white;" text="First Name:" />
+      <Label fx:id="firstName" alignment="CENTER" layoutX="77.0" layoutY="30.0" prefHeight="40.0" prefWidth="69.0" style="-fx-text-fill: white;" text="Label" />
+      <Label alignment="CENTER" layoutX="149.0" layoutY="30.0" prefHeight="40.0" prefWidth="60.0" style="-fx-text-fill: white;" text="Last Name:" />
+      <Label fx:id="lastName" alignment="CENTER" layoutX="209.0" layoutY="30.0" prefHeight="40.0" prefWidth="69.0" style="-fx-text-fill: white;" text="Label" />
+      <Label alignment="CENTER" layoutX="269.0" layoutY="30.0" prefHeight="40.0" prefWidth="60.0" style="-fx-text-fill: white;" text="ID:" />
+      <Label fx:id="id" alignment="CENTER" layoutX="340.0" layoutY="30.0" prefHeight="40.0" prefWidth="60.0" style="-fx-text-fill: white;" text="Label" />
+   </children>
+</AnchorPane>
